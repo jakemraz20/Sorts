@@ -22,7 +22,8 @@ public class App
         System.out.println("Prior to sort:");
         System.out.println(sortMe.toString());
         //Sorts
-        sorter.quickSortStart(sortMe);
+        //sorter.quickSortStart(sortMe);
+        sorter.mergeSortStart(sortMe);
 
         System.out.println("After sort:");
         System.out.println(sortMe.toString());
